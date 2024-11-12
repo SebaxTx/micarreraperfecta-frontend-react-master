@@ -1,0 +1,87 @@
+body {
+  
+  display: calc();
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Altura completa de la pantalla */
+  margin: 0;
+  background-image: url('../../../../assets/testimage.png'); 
+ 
+
+}
+
+.cuestionario {
+  width: 70%; /* Ancho del panel */
+  max-width: 700px; /* Máximo ancho del panel */
+  margin: 20px auto; /* Centrar horizontalmente */
+  padding: 20px;
+  border: 10px solid #1D3557;
+  background-color: #f1faee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Alinear contenido al centro */
+  
+}
+.cuestionario h1 {
+  background-color: #1D3557;
+  color: #f1faee;
+  font-weight:600;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 3px;
+  
+
+}
+.cuestionario h2 {
+  font-size: 26px; /* Tamaño más grande */
+  font-weight: bold; /* Texto más grueso */
+  color: #1D3557;
+  
+  margin-bottom: 70px;
+}
+.question-container {
+  margin-bottom: 70px;
+  border-color: #1D3557;
+  
+}
+.question-container h3{
+  font-style: monospace;
+  color: black;
+
+}
+.btn-afirmativa,
+.btn-negativa {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #457B9D;
+  color: #f1faee;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-afirmativa:hover,
+.btn-negativa:hover {
+  background-color: #0056b3;
+}
+.btn-ver-mas{
+  font-size: larger;
+  color: #1D3557;
+  font-weight: bold;
+}
+
+.cuestionario p {
+  margin-top: 20px;
+  font-style: italic;
+  color: green;
+}
+.cuestionario h3 {
+font-style: monospace;
+color: black;
+font-size: large;
+  
+}
+.btn-terminar-encuesta{
+
+padding: 10px 30px;
+background-color: #e63946;
+
+}

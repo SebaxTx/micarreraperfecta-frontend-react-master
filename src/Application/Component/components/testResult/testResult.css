@@ -1,0 +1,36 @@
+.container_result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1FAEE;
+    padding: 90px 0px;
+    /* height: 100vh; */
+    height: 100%;
+
+}
+.dropdown{
+    width: 100%;
+}
+.result_title{
+    background-color: #1D3557;
+    color: #fff;
+    font-weight:600;
+    font-size: 21px;
+    width: 800px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 40px 0px;
+}
+.selectedCareer{
+    background-color: #06a52ecc;
+    color: #fff;
+    font-size: 21px;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 40px 0px;
+}
